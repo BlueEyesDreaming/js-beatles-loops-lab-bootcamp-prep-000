@@ -12,7 +12,7 @@ function johnLennonFacts(facts) {
   while (i < facts.length) {
     console.log(array)
     console.log(facts[i])
-    array += facts[i] + '!!!'
+    array += ${facts[i]}[i] + '!!!'
     i++;
   }
   return array

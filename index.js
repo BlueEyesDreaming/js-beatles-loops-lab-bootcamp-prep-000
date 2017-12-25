@@ -10,6 +10,8 @@ function johnLennonFacts(facts) {
   let i=0;
   array = 0;
   while (i < facts.length) {
+    console.log(array)
+    console.log(facts)
     array += facts[i] + '!!!'
     i++;
   }
